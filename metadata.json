@@ -1,0 +1,6 @@
+{
+  "name": "Frequency Body - Eletroestimulação EMS em Domicílio SP",
+  "description": "Treino de eletroestimulação muscular (WB-EMS) a domicílio e condomínios em São Paulo. Sessões de 20 minutos com tecnologia sem fio Wiemspro, sem trânsito e com personal exclusivo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
