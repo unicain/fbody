@@ -1,61 +1,45 @@
 import React from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
-import { TrafficSavingsCalculator } from './components/TrafficSavingsCalculator';
-import { SuitAndTechSection } from './components/SuitAndTechSection';
-import { ComparisonSection } from './components/ComparisonSection';
-import { AudienceSegments } from './components/AudienceSegments';
-import { NeighborhoodsSP } from './components/NeighborhoodsSP';
-import { SafetyEthicsSection } from './components/SafetyEthicsSection';
-import { InstagramFeedGMB } from './components/InstagramFeedGMB';
+import { TheExperienceSection } from './components/TheExperienceSection';
+import { TheMethodSection } from './components/TheMethodSection';
+import { YourSessionSection } from './components/YourSessionSection';
+import { AboutFernanda } from './components/AboutFernanda';
 import { BookingForm } from './components/BookingForm';
-import { FAQSection } from './components/FAQSection';
 import { Footer } from './components/Footer';
 import { FloatingWhatsApp } from './components/FloatingWhatsApp';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#070b14] text-slate-100 flex flex-col font-sans selection:bg-cyan-500 selection:text-white">
-      {/* Top Navbar */}
+    <div className="min-h-screen bg-[#F7F5F0] text-[#202126] flex flex-col font-sans selection:bg-[#8276C9] selection:text-white">
+      {/* Top Navbar: 4 Editorial Chapters + Book Your Session */}
       <Navbar />
 
-      {/* Main Content Sections */}
+      {/* Main Content */}
       <main className="flex-grow">
-        {/* Hero Section */}
+        {/* Editorial Hero */}
         <Hero />
 
-        {/* Traffic and Time Savings Calculator for SP */}
-        <TrafficSavingsCalculator />
+        {/* Chapter 1: THE EXPERIENCE */}
+        <TheExperienceSection />
 
-        {/* Technology & Official 8 Benefits */}
-        <SuitAndTechSection />
+        {/* Chapter 2: THE METHOD (com o Accordion das 5 Perguntas Obrigatórias) */}
+        <TheMethodSection />
 
-        {/* Comparison: In-Home vs Physical Studios */}
-        <ComparisonSection />
+        {/* Chapter 3: YOUR SESSION (com o Simulador Discreto de Tempo Poupado) */}
+        <YourSessionSection />
 
-        {/* Solutions by Audience Personas */}
-        <AudienceSegments />
+        {/* Chapter 4: ABOUT (Fernanda B. Faria, CREF-SP e Propósito) */}
+        <AboutFernanda />
 
-        {/* São Paulo Local SEO & Neighborhoods */}
-        <NeighborhoodsSP />
-
-        {/* Biosafety, CREF & Transparent Contraindications */}
-        <SafetyEthicsSection />
-
-        {/* Social Proof: Instagram @frequency.body & Google Reviews */}
-        <InstagramFeedGMB />
-
-        {/* Interactive WhatsApp Trial Booking Form */}
+        {/* Chapter 5: BOOK YOUR SESSION (Agendamento no WhatsApp) */}
         <BookingForm />
-
-        {/* High-Intent SEO FAQ */}
-        <FAQSection />
       </main>
 
-      {/* Footer */}
+      {/* Editorial Footer com Termos do CREF-SP */}
       <Footer />
 
-      {/* Floating Sticky WhatsApp Button */}
+      {/* Floating WhatsApp Concierge */}
       <FloatingWhatsApp />
     </div>
   );

@@ -25,25 +25,21 @@ Landing page institucional e de captação de clientes para a **Frequency Body E
 │   └── workflows/deploy.yml     # Workflow pronto para Deploy Automático no GitHub Pages
 ├── src/
 │   ├── main.tsx                 # Ponto de entrada React
-│   ├── App.tsx                  # Estrutura principal da página
+│   ├── App.tsx                  # Estrutura dos 5 Capítulos Editoriais
 │   ├── index.css                # Importação do Tailwind CSS v4
 │   ├── data/
-│   │   └── frequencyData.ts     # Dados centralizados (contatos, bairros de SP, benefícios, FAQ)
+│   │   └── frequencyData.ts     # Dados centralizados (contatos, 4 pilares, bairros de SP, 5 FAQs)
 │   └── components/
-│       ├── FrequencyLogo.tsx    # Logo vetorial fiel à identidade visual
-│       ├── Navbar.tsx           # Barra de navegação fixa com CTA de WhatsApp e Instagram
-│       ├── Hero.tsx             # Seção de impacto inicial ("O Treino de 20 min que vai até você")
-│       ├── TrafficSavingsCalculator.tsx # Calculadora interativa de economia de trânsito em SP
-│       ├── SuitAndTechSection.tsx       # Traje Wiemspro®, 10 grupos musculares e 8 benefícios
-│       ├── ComparisonSection.tsx        # Comparativo: Estúdios físicos vs Frequency Body em casa
-│       ├── AudienceSegments.tsx         # Soluções por personas (Executivos, Condomínios, RH, etc.)
-│       ├── NeighborhoodsSP.tsx          # Bairros atendidos em SP e selo Google Meu Negócio
-│       ├── SafetyEthicsSection.tsx      # Segurança, registro CREF e contraindicações
-│       ├── InstagramFeedGMB.tsx         # Avaliações 5.0 Google e vitrine @frequency.body
-│       ├── BookingForm.tsx              # Simulador de agendamento que formata o WhatsApp
-│       ├── FAQSection.tsx               # Dúvidas frequentes otimizadas para busca orgânica
-│       ├── Footer.tsx                   # Rodapé completo com termos legais e avisos do CREF
-│       └── FloatingWhatsApp.tsx         # Botão flutuante de WhatsApp com menu rápido
+│       ├── FrequencyLogo.tsx    # Logo vetorial adaptado à estética editorial
+│       ├── Navbar.tsx           # Menu dos 5 itens (The Experience, The Method, Your Session, About, Book Your Session)
+│       ├── Hero.tsx             # Hero editorial ("O TEMPO É O VERDADEIRO LUXO")
+│       ├── TheExperienceSection.tsx # The Experience (Os 4 Pilares, Atendimento VIP e Bairros)
+│       ├── TheMethodSection.tsx # The Method (Whole-Body EMS, 10 grupos e Accordion das 5 Perguntas)
+│       ├── YourSessionSection.tsx   # Your Session (Etapas da sessão e Simulador de Tempo Poupado)
+│       ├── AboutFernanda.tsx    # About (Fernanda B. Faria, CREF-SP e Propósito de Longevidade)
+│       ├── BookingForm.tsx      # Book Your Session (Agendamento personalizado via WhatsApp)
+│       ├── Footer.tsx           # Rodapé editorial com avisos legais e ética do CREF-SP
+│       └── FloatingWhatsApp.tsx # Botão flutuante minimalista para WhatsApp
 ```
 
 ---
