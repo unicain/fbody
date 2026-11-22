@@ -29,14 +29,14 @@ export default function App() {
         {/* Chapter 3: YOUR SESSION (com o Simulador Discreto de Tempo Poupado) */}
         <YourSessionSection />
 
-        {/* Chapter 4: ABOUT (Fernanda B. Faria, CREF-SP e Propósito) */}
+        {/* Chapter 4: ABOUT (Fernanda B. Faria e Propósito) */}
         <AboutFernanda />
 
         {/* Chapter 5: BOOK YOUR SESSION (Agendamento no WhatsApp) */}
         <BookingForm />
       </main>
 
-      {/* Editorial Footer com Termos do CREF-SP */}
+      {/* Editorial Footer */}
       <Footer />
 
       {/* Floating WhatsApp Concierge */}

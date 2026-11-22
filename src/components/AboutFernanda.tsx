@@ -20,16 +20,13 @@ export const AboutFernanda: React.FC = () => {
                   </div>
                   <span className="font-serif text-lg font-bold text-[#202126]">Fernanda B. Faria</span>
                   <span className="text-[10px] text-[#5A6065] tracking-wider uppercase mt-0.5">Especialista em EMS</span>
-                  <span className="inline-block mt-2 px-2.5 py-0.5 rounded-full bg-[#EFECE6] text-[#8276C9] text-[9px] font-bold">
-                    CREF-SP ATIVO
-                  </span>
                 </div>
               </div>
 
               <div className="w-full p-4 rounded-2xl bg-[#FAF8F5] border border-[#EAE5DC] text-left text-xs space-y-2">
                 <div className="flex items-center gap-2 text-[#202126]">
                   <Award className="w-4 h-4 text-[#8276C9] shrink-0" />
-                  <span>Educadora Física credenciada CREF-SP</span>
+                  <span>Fundadora da Frequency Body</span>
                 </div>
                 <div className="flex items-center gap-2 text-[#202126]">
                   <ShieldCheck className="w-4 h-4 text-[#8276C9] shrink-0" />

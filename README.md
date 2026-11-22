@@ -36,9 +36,9 @@ Landing page institucional e de captação de clientes para a **Frequency Body E
 │       ├── TheExperienceSection.tsx # The Experience (Os 4 Pilares, Atendimento VIP e Bairros)
 │       ├── TheMethodSection.tsx # The Method (Whole-Body EMS, 10 grupos e Accordion das 5 Perguntas)
 │       ├── YourSessionSection.tsx   # Your Session (Etapas da sessão e Simulador de Tempo Poupado)
-│       ├── AboutFernanda.tsx    # About (Fernanda B. Faria, CREF-SP e Propósito de Longevidade)
+│       ├── AboutFernanda.tsx    # About (Fernanda B. Faria e Propósito de Longevidade)
 │       ├── BookingForm.tsx      # Book Your Session (Agendamento personalizado via WhatsApp)
-│       ├── Footer.tsx           # Rodapé editorial com avisos legais e ética do CREF-SP
+│       ├── Footer.tsx           # Rodapé editorial com avisos legais
 │       └── FloatingWhatsApp.tsx # Botão flutuante minimalista para WhatsApp
 ```
 

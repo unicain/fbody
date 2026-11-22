@@ -104,7 +104,7 @@ export const Hero: React.FC = () => {
                 <div className="space-y-2 text-xs text-[#202126]">
                   <div className="flex items-center gap-2">
                     <Check className="w-4 h-4 text-[#8276C9]" />
-                    <span>Condução presencial pela especialista Fernanda (CREF-SP)</span>
+                    <span>Condução presencial pela Fernanda</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Check className="w-4 h-4 text-[#8276C9]" />

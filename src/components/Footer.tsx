@@ -115,9 +115,6 @@ export const Footer: React.FC = () => {
         {/* Legal & Medical Notice */}
         <div className="py-8 border-b border-[#DDD6CC] text-[11px] text-[#7A8086] leading-relaxed space-y-2">
           <p>
-            <strong>Aviso Legal & Regulamentação CREF-SP:</strong> Todos os treinamentos físicos são conduzidos sob a responsabilidade técnica de profissional de Educação Física devidamente registrada no Conselho Regional de Educação Física (CREF-SP), em estrita conformidade com a Lei Federal nº 9.696/1998.
-          </p>
-          <p>
             <strong>Segurança & Contraindicações Clínicas:</strong> Equipamentos de eletroestimulação muscular de corpo inteiro Wiemspro® com certificações de conformidade sanitária. O treino de WB-EMS é estritamente contraindicado para gestantes, portadores de marca-passo cardíaco ou desfibriladores implantados, pessoas com histórico de epilepsia e casos de trombose aguda ativa. O serviço atua no aprimoramento físico e bem-estar funcional, não configurando tratamento médico curativo de patologias.
           </p>
         </div>

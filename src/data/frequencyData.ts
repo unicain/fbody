@@ -50,7 +50,6 @@ export const CONTACT_INFO = {
   wiemsproSince: '2016',
   frequencySince: '2021',
   founder: 'Fernanda B. Faria',
-  cref: 'Registro Ativo CREF-SP',
 };
 
 export const createWhatsAppUrl = (messageText: string) => {
@@ -121,14 +120,14 @@ export const METHOD_FAQS: MethodFaq[] = [
   {
     id: 4,
     question: '4. Como funciona a segurança e o acompanhamento presencial?',
-    answer: 'O atendimento é 100% individual e presencial, conduzido diretamente pela especialista Fernanda, profissional de Educação Física credenciada pelo CREF-SP. A intensidade de cada um dos 10 grupos musculares é calibrada em tempo real no aplicativo dedicado, respeitando a sua sensibilidade. Todos os trajes passam por protocolo hospitalar de higienização prévia e posterior.',
+    answer: 'O atendimento é 100% individual e presencial, conduzido pela Fernanda. A intensidade de cada um dos 10 grupos musculares é calibrada em tempo real no aplicativo dedicado, respeitando a sua sensibilidade. Todos os trajes passam por protocolo hospitalar de higienização prévia e posterior.',
     highlight: 'Acompanhamento presencial dedicado da Fernanda com calibração milimétrica.',
   },
   {
     id: 5,
     question: '5. Quais são os critérios de triagem e contraindicações?',
     answer: 'Antes do primeiro treino, realizamos uma anamnese detalhada para mapear seu histórico de saúde, lesões prévias e objetivos. Por rigor ético e normas internacionais de segurança, o treino de EMS de corpo inteiro é estritamente contraindicado para gestantes, portadores de marca-passo cardíaco ou desfibriladores implantados, pessoas com epilepsia e quadros de trombose aguda ativa. Havendo qualquer condição específica, atuamos em sintonia com a recomendação do seu médico.',
-    highlight: 'Anamnese obrigatória e respeito integral às diretrizes do CREF e da medicina preventiva.',
+    highlight: 'Anamnese obrigatória e respeito às orientações do seu médico.',
   },
 ];
 
